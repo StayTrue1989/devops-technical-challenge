@@ -1,0 +1,8 @@
+# gitignore template for AWS Serverless Application Model project
+# website: https://docs.aws.amazon.com/serverless-application-model
+
+# Ignore build folder
+.aws-sam/
+
+# Ignore __pycache__ in the app directory
+app/__pycache__/
