@@ -11,6 +11,12 @@ def test_int():
     assert response.json() == {"sum": 12}
 
 
+def test_negative_int():
+    response = client.get("/sum/-1/-8")
+    assert response.status_code == 200
+    assert response.json() == {"sum": -9}
+
+
 # Testing two floating point numbers.
 def test_float():
     response = client.get("/sum/10.5/2.4")
