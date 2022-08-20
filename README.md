@@ -1,8 +1,8 @@
-# devops-technical-challenge
+# Devops Technical Challenge
 
-This repository contains an AWS SAM template that can be used to deploy the "Sum" API to AWS.
+This repository contains an API that will add two numbers together via a GET request to the API endpoint. An [AWS SAM template](https://aws.amazon.com/serverless/sam/) is used to define the resources in IAC. The API was created in Python using the [FastAPI](https://fastapi.tiangolo.com/) framework.
 
-# Requirements:
+## Requirements:
 - [x] Using Infrastructure as code (SAM/CloudFormation)
 - [x] Any language (Python)
 - [x] Build and deploy an API endpoint
@@ -10,10 +10,12 @@ This repository contains an AWS SAM template that can be used to deploy the "Sum
 - [x] Responds with the sum of two numbers in json ```"{ "sum": value_here }"```
 
 
-# Stretch Goals:
+## Stretch Goals:
 - [x] Data input validation. The /sum endpoint accepts only "int" and "float" input values.
 - [x] Python code tests using pytest. Includes tests to verify input validation only accepts int and float values.
 - [x] Swagger documentation for the API
+
+
 
 ## To deploy the API to AWS
 Start by cloning this repository to your local machine. Next, navigate to the directory where you cloned the files and run the commands below.
