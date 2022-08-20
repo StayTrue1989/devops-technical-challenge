@@ -5,4 +5,8 @@
 .aws-sam/
 
 # Ignore __pycache__ in the app directory
-app/__pycache__/
+src/app/__pycache__/*
+.pytest_cache
+latest_logs
+archived_logs
+
