@@ -14,7 +14,7 @@ This repository contains an AWS SAM template that can be used to deploy the "Sum
 - [x] Data input validation. The /sum endpoint accepts only "int" and "float" input values.
 - [x] Swagger documentation for the API
 
-## To deploy the API
+## To deploy the API to AWS
 Start by cloning this repository to your local machine. Next, navigate to the directory where you cloned the files and run the commands below.
 
 ##### 1. Build step
@@ -30,4 +30,10 @@ sam deploy --resolve-s3
 ##### Deploy with specified bucket
 ```
 sam deploy --s3-bucket {S3BucketName}
+```
+
+## To deploy locally (using Docker) for development and testing
+This requires Docker to be installed and running on your local machine.  Run the command from the directory containing the AWS SAM template. This creates a local HTTP server in a docker container.
+```
+sam local start-api
 ```
