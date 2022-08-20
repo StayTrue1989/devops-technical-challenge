@@ -12,6 +12,7 @@ This repository contains an AWS SAM template that can be used to deploy the "Sum
 
 # Stretch Goals:
 - [x] Data input validation. The /sum endpoint accepts only "int" and "float" input values.
+- [x] Python code tests using pytest. Includes tests to verify input validation only accepts int and float values.
 - [x] Swagger documentation for the API
 
 ## To deploy the API to AWS
