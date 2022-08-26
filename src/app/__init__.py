@@ -1,9 +1,10 @@
 import os
-from fastapi import FastAPI
 from typing import Union
+from fastapi import FastAPI
 from mangum import Mangum
 
-# Lines 7-10 change the path that is used to serve openapi.json, which will allow the documentation page to be generated without any issue.
+# Lines 8-11 change the path that is used to serve openapi.json.
+# #This will allow the documentation page to be generated without any issue.
 stage = os.environ.get("STAGE", None)
 openapi_prefix = f"/{stage}" if stage else "/"
 
