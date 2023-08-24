@@ -4,15 +4,15 @@ This repository contains an API that will add two numbers together via a GET req
 
 **You can find the API hosted here:**
 
-https://2hwr3m92kd.execute-api.us-east-1.amazonaws.com/sum/10/2
+https://example.execute-api.us-east-1.amazonaws.com/sum/10/2
 
 **Swagger Docs**
 
-https://2hwr3m92kd.execute-api.us-east-1.amazonaws.com/docs
+https://example.execute-api.us-east-1.amazonaws.com/docs
 
 **Example Call**
 ```
-curl https://2hwr3m92kd.execute-api.us-east-1.amazonaws.com/sum/10/2
+curl https://example.execute-api.us-east-1.amazonaws.com/sum/10/2
 ```
 
 ## Project Requirements:
